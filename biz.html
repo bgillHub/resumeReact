@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<link link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<title>Brian Gill - Official Resume Site Business</title>
+</head>
+<body style ="padding-top:30px">
+	<div class ="site-wrapper pager" style = "background-color: #233237">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.html" style="float: center">Back to Home</a>
+				</div>
+			</div>
+		</nav>
+		<div class = "jumbotron stripe"  style= "background-color:  #233237">
+			<div class = "row">
+				<p class = "sectionTitle" style= "color: white">
+					Resume
+				</p>
+				<button class = "btn btn-primary " style="margin: 5px" data-toggle="modal" data-target="#rezModal" >Open </button>
+			</div>
+		</div>
+		<div class = "jumbotron stripe" id="education" style="color: white">
+			<div class = "row" >
+				<p class = "sectionTitle" style="color: #233237">
+					Education
+				</p>
+			</div>
+			<div class="row"><p class="subsection"style="color: #233237">Quinnipiac University</p>
+				<a><span class="glyphicon glyphicon-chevron-down" style="color: black" aria-hidden="true"data-toggle="collapse" data-target="#quBlurb"></span></a>
+				<div id="quBlurb" class="collapse">
+					<p class="blurb" style="color: #233237; font-weight: bold;">2013-2017</p>
+					<p class="blurb" style="color: #233237; font-weight: bold;">B.S. in Software Engineering with a Minor in Mathematics.</p>
+				</div>
+			</div>
+			<div class="row"><p class="subsection"style="color: #233237">Ridgefield High School</p>
+				<a><span class="glyphicon glyphicon-chevron-down" style="color: black" aria-hidden="true"data-toggle="collapse" data-target="#ridgeBlurb"></span></a>
+				<div id="ridgeBlurb" class="collapse">
+					<p class="blurb" style="color: #233237; font-weight: bold;">2009-2013</p>
+					<p class="blurb" style="color: #233237">I first became interested in programming via Project Lead the Way. While my schoolwork has pursued OOP in languages such as Java and Python, working with basic motors in Basic Stamp felt extremely comfortable with my curious, tinkering nature.</p>
+				</div>
+			</div>
+		</div>
+		<div class = "jumbotron stripe"id="workexp" style= "background-color:  #233237">
+			<div class = "row" >
+				<p class = "sectionTitle" style= "color: white" >
+					Work Experiences
+				</p>
+			</div>
+			<div class="row">
+				<div class="row"><p class="subsection" style="color: white">Fiber Mountain</p>
+					<a><span class="glyphicon glyphicon-chevron-down" style="color: white" aria-hidden="true"data-toggle="collapse" data-target="#fmiBlurb"></span></a>
+					<div id="fmiBlurb" class="collapse">
+						<p class="blurb" style="color: white; font-weight: bold;">2017-2018</p>
+						<p class="blurb" style="color: white">Java Developer</p>
+						<p class="blurb" style="color: white">Fiber Mountain of Cheshire, CT hired me to work on their large code base for a Software Defined Network that featured many aspects supporting their network switches.</p>
+						<p class="blurb" style="color: white">At Fiber Mountain, I really launched myself into the world of networking. Previously an area I had dodged, found myself working on network switches wether by debugging and carefully developing in a huge SDN environment, directly communicating with network switches by using MobaXterm, or even using AutoDesk 3DS max to model what the devices may look like.</p>
+						<p class="blurb" style="color: white">I am proudest of how far I came in learning Networking Protocols, including working with both HTTP and TCP protocols to communicate in a range of environments.</p>
+					</div>
+				</div>
+				<div class="row"><p class="subsection" style="color: white">MEA Mobile</p>
+					<a><span class="glyphicon glyphicon-chevron-down" style="color: white" aria-hidden="true"data-toggle="collapse" data-target="#meaBlurb"></span></a>
+					<div id="meaBlurb" class="collapse">
+						<p class="blurb" style="color: white; font-weight: bold;">2016-2017</p>
+						<p class="blurb" style="color: white">Intern Developer</p>
+						<p class="blurb" style="color: white">MEA Mobile of New Haven, CT hired me to develop an Android version of their successful application, iArtView.</p>
+						<p class="blurb" style="color: white">During my time at MEA, I applied my Java programming skills extensively, learned how to work with XML files to produce front-end and back-end effects, and applied a host of API's and tools such as the Twitter's Fabric and Google Services.</p>
+					</div>
+				</div>
+				<div class="row"><p class="subsection"style="color: white">Gartner Inc</p>
+					<a><span class="glyphicon glyphicon-chevron-down" style="color: white" aria-hidden="true"data-toggle="collapse" data-target="#gartBlurb"></span></a>
+					<div id="gartBlurb" class="collapse">
+						<p class="blurb" style="color: white; font-weight: bold;">Summer 2014</p>
+						<p class="blurb" style="color: white">Data Analysis and Development Intern for Research</p>
+						<p class="blurb" style="color: white">Gatner Inc of Stamford, CT hired me to develop Microsoft Access databases that would support their client data.</p>
+						<p class="blurb" style="color: white">My experience at Gartner took a lot of determination to organize data across a mountain of contracts, each of which had a different format depending on the colocation service provider.</p>
+						<p class="blurb" style="color: white">Once the data was entered into a complete schema, I then introduced myself to SQL to power queries that would allow for Data Analysts to quickly arrive at conclusions from a speicifed query.</p>
+					</div>
+				</div>
+				<div class="row"><p class="subsection"style="color: white">Quinnipiac Polling Institute</p>
+					<a><span class="glyphicon glyphicon-chevron-down" style="color: white" aria-hidden="true"data-toggle="collapse" data-target="#pollBlurb"></span></a>
+					<div id="pollBlurb" class="collapse">
+						<p class="blurb" style="color: white; font-weight: bold;">School Year 2015/2016</p>
+						<p class="blurb" style="color: white">Interviewer</p>
+						<p class="blurb" style="color: white">This was a simple call-center job, but I learned a lot from the experience, namely how to hold strong in the face of extremely disagreeable people.</p>
+						<p class="blurb" style="color: white">My experience in polling angry people around dinner time imparted methods in defusing a situation and proper vernacular to politely ask people for something.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "jumbotron stripe"id="projects" style="color: white">
+			<div class = "row" >
+				<p class = "sectionTitle" style="color:#233237">
+					Coding Projects
+				</p>
+			</div>
+			<a href ="index.html">
+				<span class="glyphicon glyphicon-user" style="color:  #233237" aria-hidden="true"data-toggle="collapse" data-target="#quBlurb"></span>
+				<div class="row"><p class="subsection"style="color: #233237">This Website</p></div>
+			</a>
+			<div class="row">
+					<a><span class="glyphicon glyphicon-exclamation-sign" style="color: red" aria-hidden="true"></span></a>
+					<p class="subsection"style="color: #233237">oneLiner</p>
+					<a><span class="glyphicon glyphicon-chevron-down" style="color: black" aria-hidden="true"data-toggle="collapse" data-target="#linerBlurb"></span></a>
+					<div id="linerBlurb" class="collapse">
+						<p class="blurb" style="color: #233237">GitHub: <a href="https://github.com/bgillHub/oneLiner">github.com/bgillHub/oneLiner</a> </p>
+						<p class="blurb" style="color: #233237">Meteor-based project that emulates an anonymous message-board application that allows users to limit the responses given to their basic programming questions.</p>
+						<p class="blurb" style="color: #233237">I felt that the responses you can find on Stack Overflow are often overwhelming or condescending, and there is no way for the user to express the level of expertise they would like in responding answers.</p>
+						<p class="blurb" style="color: #233237">OneLiner allows users to specify a level of expertise for their question and anonymously post a question.</p>
+						<p class="blurb" style="color: #233237">This application used to be hosted as a free Meteor web-app; if you would like to run it, please download it from the GitHub repo and run it in a Meteor environment.</p>
+					</div>
+			</div>
+		</div>
+		<div class = "jumbotron stripe" id="skills" style= "background-color:  #233237" >
+			<div class = "row" >
+				<p class = "sectionTitle" style="color:white">
+					Skills
+				</p>
+				<a><span class="glyphicon glyphicon-chevron-down" style="color: white" aria-hidden="true"data-toggle="collapse" data-target="#skillsExp"></span></a>
+				<div id="skillsExp" class ="collapse">
+					Coming Soon...
+				</div>
+			</div>
+		</div>
+		<div class = "jumbotron stripe" id="future" style= "color:  white" >
+			<div class = "row" >
+				<p class = "sectionTitle" style="color:#233237">
+					Future Desires
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+<!-- Modal -->
+<div id="rezModal" class="modal fade" role="dialog" >
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-body"style="height:75vh;">
+				<object data="resume.pdf"style="height:70vh; width:90%; float: center;" ></object>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+</html>

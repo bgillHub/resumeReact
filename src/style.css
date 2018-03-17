@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+html,body {
+	height: 100%;
+	padding-top: 0px;
+	margin-top: 0px;
+	font-family: 'Roboto';
+}
+
+div.A {
+	background-color: rgb(200,200,200);
+	border: 3px solid gray;
+
+}
+div.ResumeBlock {
+	vertical-align: middle;
+	background-color: rgb(180,180,180) ;
+	border: 3px solid gray;
+}
+
+div.ResumeBlock:hover {
+		background-color: rgb(200,200,200) ;
+		border: 9px solid gray;
+}
+
+div.Bio {
+		background-color: #984B43;
+    border:5px solid #18121E;
+		border-radius: 25%;
+		color: #EAC67A;
+		padding: 0px;
+    margin-top: 10px;
+}
+
+div.WholePage {
+	background-color: rgb(220,220,220);
+    border:5px solid black;
+    margin-top: 0px;
+}
+
+div.InfoList {
+	float: middle;
+	padding: 3px;
+	text-align: center;
+	max-width: 35%
+}
+
+div.popup {
+	opacity: 0.01;
+}
+
+.navBar {
+	width: 500px;
+    display: inline-block;
+    list-style-type: none;
+    position: fixed;
+    left: 50%;
+    margin-left: -230px;
+    margin-top: -20px;
+}
+
+.navBar{
+	display:inline;
+}
+
+.navBar a{
+	display:inline-block;
+}
+
+.navTopics {
+	padding: 0px;
+	background-color: rgb(238,198,13);
+	border: 2px solid gray;
+	display: inline;
+	float: middle;
+}
+
+.navTopics:hover{
+		background-color: rgb(245,215,28);
+}
+
+img.linkedIn {
+	src: "linkedIcon.jpg";
+}
+
+a:hover {
+	color: red;
+}
+
+p.sectionTitle {
+	font-size: 24px;
+	font-weight: bold;
+	font-family: 'Roboto',sans-serif;
+}
+
+p.subsection{
+	font-size: 18px;
+	font-style: oblique;
+	font-weight: lighter;
+	font-family: 'Roboto',sans-serif;
+}
+
+p.blurb{
+	font-size: 12px;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	font-weight: lighter;
+	font-family: 'Roboto',sans-serif;
+}
+
+ul {
+	list-style-type: disc;
+	display: list-item;
+}
+
+img.profile {
+	border-radius: 15% 15% 15% 15%;
+	width: 15%;
+  height: auto;
+	border: solid black;
+}
+
+.pager {
+	height: 100%;
+}
+
+a.blank {
+	color: #000000;
+	text-decoration: none;
+}
+
+div.stripe {
+	padding: 0px;
+	margin: 0px;
+}
+
+button.round{
+	border-radius: 70%;
+	align-content: center;
+	overflow: hidden;
+	padding: 5%;
+	text-align: center;
+	font-size: 14px;
+	font-size: 1.6vw;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

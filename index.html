@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<title>Brian Gill - Official Resume Site Home</title>
+</head>
+<body style ="padding: 1px; margin-top: 1px">
+	<div class ="site-wrapper pager" style = "background-color: #233237; padding: 1px; margin-top: 1px">
+			<div class = "jumbotron" style = "background-color: #233237; color:white">
+				<div class = "row">
+				<img class ="profile" src = "profile.jpg" >
+			</div>
+			<div class = "row">
+				<p style = "font-size:26px">Brian Gill</p>
+				<p style="padding: 10px">Hello, and welcome to my personal in-progress career-building website. This will be a simple webpage updating my professional worth and personal interests. Currently, a lot of future work may be expected.</p>
+				<center><p style="font-size:20px; padding-top: 5px">First: Why are you Here?</p></center>
+			</div>
+			<div class = "row" style="padding-top: 5px">
+				<button class = "btn btn-primary col-xs-2 col-xs-offset-3 round" data-toggle="modal" data-target="#bizModal" >Business</button>
+				<button class = "btn btn-warning col-xs-2 col-xs-offset-2 round"data-toggle="modal" data-target="#plezModal">Pleasure</button>
+			</div>
+			<!--<div class = "row" style="margin-top: 15px">
+				<button class = "btn btn-success col-xs-2 col-xs-offset-5" data-toggle="modal" data-target="#blurbModal" >About Me</button>
+			</div>-->
+			</div>
+	</div>
+</body>
+<!-- Modal -->
+<div id="plezModal" class="modal fade popup" role="dialog">
+	<div class="modal-dialog ">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Just My Interests</h4>
+			</div>
+			<div class="modal-body">
+				<ul class = "list-group">
+					<a href="plez.html#movies" class ="blank"><li class="list-group-item">Movies</li></a>
+					<a href="plez.html#books" class ="blank" ><li class="list-group-item">Books</li></a>
+					<a href="plez.html#games" class ="blank" ><li class="list-group-item">Games</li></a>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal -->
+<div id="bizModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Business</h4>
+			</div>
+			<div class="modal-body">
+				<ul class = "list-group">
+					<a href="" class ="blank" data-toggle="modal" data-target="#resumePDF"><li class="list-group-item">Resume PDF</li></a>
+					<a href="biz.html#education" class ="blank" ><li class="list-group-item">Education</li></a>
+					<a href="biz.html#workexp" class ="blank" ><li class="list-group-item">Work Experiences</li></a>
+					<a href="biz.html#projects" class ="blank" ><li class="list-group-item">Coding Projects</li></a>
+					<a href="biz.html#skills" class ="blank" ><li class="list-group-item">Skills</li></a>
+					<a href="biz.html#future" class ="blank" ><li class="list-group-item">Future Desires</li></a>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal -->
+<div id="resumePDF" class="modal fade" role="dialog" >
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-body"style="height:75vh;">
+				<object data="resume.pdf"style="height:70vh; width:90%; float: center;" ></object>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Modal -->
+<div id="blurbModal" class="modal fade" role="dialog" >
+	<div class="modal-dialog">
+		<!-- Modal content-->
+		<div class="modal-content">
+			<div class="modal-body"style="height:75vh;">
+				<p style ="text-align: center; margin-top: 10px; font-size: 24px"></p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+</html>
